@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  border: 2px solid red;
+}
+
+.container2 {
+  display: grid;
+  border: 2px solid red;
+}
+
+/* */
+.infoContacto {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #212f3d;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.infoContacto a {
+  margin-right: 100px;
+}
+
+.infoContacto li {
+  text-decoration: none;
+  font-style: italic;
+}
+
+.infoContacto li a:visited {
+  color: white;
+}
+
+.infoTrabajos {
+}
+
+/* SKILLS*/
+
+.infoHabilidades {
+}
+
+.infoHabilidades li {
+}
+
+.habilidadesBlandas {
+  border: 2px solid yellow;
+}
+
+.habilidadesTecnicas {
+  border: 2px solid blue;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #353535;
+  padding: 80px 0;
+}
+
+.footerContainer {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.logo {
+  width: 180px;
+}
+
+.socialMedia a {
+  color: #fff;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.socialMedia a:hover {
+  color: #fc5c65;
+}
+
+.Footer2-Right h1 {
+  font-size: 26px;
+  color: #fff;
+}
+
+.border {
+  width: 100px;
+  height: 4px;
+  background: #fe4918;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.txtEmail {
+  flex: 1;
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #353535;
+  background-color: #ddd;
+  border: none;
+  font-weight: 600;
+  outline: none;
+  border-radius: 30px;
+  min-width: 260px;
+}
+
+.btnForm {
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #353535;
+  background-color: #fe4918;
+  border: none;
+  font-weight: 600;
+  outline: none;
+  border-radius: 30px;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: opacity 0.3s linear;
+}
+
+.btnForm:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 960px) {
+  .footerContainer {
+    max-width: 650px;
+  }
+
+  .Footer2-Right {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .Footer1-Left {
+    width: 100%;
+    text-align: center;
+  }
+  .btnForm {
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .btnForm {
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+}
